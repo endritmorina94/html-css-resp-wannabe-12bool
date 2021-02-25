@@ -49,7 +49,6 @@
   clear: both;
 }
 
-
 /* Cols */
 [class*="col-"]{
   float: left;
