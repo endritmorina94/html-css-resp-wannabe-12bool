@@ -76,17 +76,6 @@ img {
     margin-top: 20px;
   }
 
-  img{
-    width: 50%;
-    height: auto;
-  }
-
-  #why img{
-    width: 50%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
   .row > *{
     margin-bottom: 30px;
   }
@@ -129,12 +118,24 @@ img {
 
   img{
     width: 50%;
+  }
+
+  #why img{
+    width: 25%;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  img{
+    width: 40%;
     height: auto;
   }
 
   #why img{
-    width: 30%;
+    width: 40%;
     height: auto;
+    margin-bottom: 10px;
   }
-
 }
