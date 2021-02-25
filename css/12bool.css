@@ -51,7 +51,6 @@
 
 
 /* Cols */
-
 [class*="col-"]{
   float: left;
 }
